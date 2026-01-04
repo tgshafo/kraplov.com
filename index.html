@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Краплов | Cyber Adapter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Анимированный туман -->
+    <div class="blood-fog"></div>
+    
+    <!-- Падающие капли крови -->
+    <div class="blood-drops"></div>
+    
+    <!-- Анимированные красные кресты -->
+    <div class="blood-crosses"></div>
+    
+    <!-- Координатная сетка -->
+    <div class="grid-overlay"></div>
+    
+    <!-- Главный контейнер -->
+    <main class="container">
+        <!-- Аватар и информация -->
+        <section class="profile-section">
+            <div class="avatar-container">
+                <img src="img/avatar.jpg" alt="Краплов" class="avatar" id="avatar">
+                <div class="avatar-blood"></div>
+                <div class="blood-drip"></div>
+                <div class="blood-splatter"></div>
+            </div>
+            
+            <div class="profile-info">
+                <h1 class="nickname">Краплов</h1>
+                <p class="username">@gemshort</p>
+                <div class="status">
+                    <div class="status-dot"></div>
+                    <span class="status-text">Онлайн • В работе</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Кнопки -->
+        <section class="buttons-section">
+            <div class="buttons-grid">
+                <a href="https://t.me/gemshort" class="blood-btn" target="_blank">
+                    <div class="btn-content">
+                        <i class="fab fa-telegram"></i>
+                        <span class="btn-text">Мой аккаунт</span>
+                    </div>
+                    <div class="blood-drip-btn"></div>
+                    <div class="btn-pulse"></div>
+                    <div class="btn-hover-effect"></div>
+                </a>
+
+                <a href="https://t.me/swatskids" class="blood-btn" target="_blank">
+                    <div class="btn-content">
+                        <i class="fas fa-cube"></i>
+                        <span class="btn-text">Адаптер</span>
+                    </div>
+                    <div class="blood-drip-btn"></div>
+                    <div class="btn-pulse"></div>
+                    <div class="btn-hover-effect"></div>
+                </a>
+
+                <a href="https://t.me/+FhEc3afHb-wyMjZk" class="blood-btn" target="_blank">
+                    <div class="btn-content">
+                        <i class="fas fa-tags"></i>
+                        <span class="btn-text">Прайс</span>
+                    </div>
+                    <div class="blood-drip-btn"></div>
+                    <div class="btn-pulse"></div>
+                    <div class="btn-hover-effect"></div>
+                </a>
+
+                <a href="https://t.me/Kraplovgift" class="blood-btn" target="_blank">
+                    <div class="btn-content">
+                        <i class="fas fa-gift"></i>
+                        <span class="btn-text">Подарок от меня</span>
+                    </div>
+                    <div class="blood-drip-btn"></div>
+                    <div class="btn-pulse"></div>
+                    <div class="btn-hover-effect"></div>
+                </a>
+
+                <a href="https://www.tiktok.com/@kibersnos?_r=1&_t=ZM-92ShHkVLxK0" class="blood-btn" target="_blank">
+                    <div class="btn-content">
+                        <i class="fab fa-tiktok"></i>
+                        <span class="btn-text">TikTok</span>
+                    </div>
+                    <div class="blood-drip-btn"></div>
+                    <div class="btn-pulse"></div>
+                    <div class="btn-hover-effect"></div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Аудио для эффектов -->
+    <audio id="hover-sound" preload="auto">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-sci-fi-horror-alarm-905.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
